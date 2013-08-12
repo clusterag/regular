@@ -1,0 +1,218 @@
+/* reset stylesheet from http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset stylesheet */
+
+/*
+The following content is Copyright 2013 Jonathan Eberle (johnee (dot) eu)
+as part of a project for Cluster-AG of Leininger-Gymnasium (clusterag (dot) leiningergymnasium (dot) de)
+All Rights Reserved until proper licensing in place
+*/
+
+@font-face {
+	font-family:PosterBodoni BT;
+	src: url(posterbodonibt.ttf);
+}
+
+body {
+	background:#FFF;
+}
+
+#main {
+	background:#0FF;
+	margin:0 auto;
+	width:90%;
+}
+
+#top {
+	overflow:hidden;
+}
+
+#headline {
+	background:#F0F;
+	padding:1.5em 2em 1em 10%;
+	max-height:77.7777778%;
+}
+
+#headline img {
+	float:left;	
+	margin:auto;
+	margin-top:-1em;
+	max-width:10%;
+	max-height:4em;
+}
+
+h1 {
+	font-family:PosterBodoni BT;
+	font-size:3em;
+	color:#270293;
+}
+
+#nav {
+	min-height:1em;
+}
+
+#mainnav {
+	background:#BF0;
+	padding:0 1em;
+}
+
+.mainnavitem {
+	float:left;
+	padding-right:3em;
+	background:#FB0;
+}
+
+.subnav {
+	display:none;
+	position:absolute;
+}
+
+.mainnavitem:hover .subnav {
+	display:block;
+}
+
+.subnavitem {
+}
+
+#bodycopy {
+	background:#0F0;
+	margin:0 auto;
+	width:100%;
+}
+
+#content {
+	background:#00F;
+	min-width:150px;
+	width:74.4047619%;
+	float:right;
+	color:#FFF;
+}
+
+.image {
+	max-width:40%;
+	float:right;
+	margin:2em;
+}
+
+.image img {
+	max-width:100%;
+}
+
+.image figcaption {
+}
+
+#side {
+	background:#0FF;
+	min-width:90px;
+	width:25.5952381%;
+	float:left;
+}
+
+#footer {
+	background:#AAA;
+	margin:0;
+	clear:both;
+}
+
+#footernav {
+}
+
+#footernavlist {
+
+}
+
+.footernavitem {
+	 }
+
+@media screen and (max-width:440px) {			/*point at which floats break*/
+	#main {
+		margin:0 auto;
+		width:90%;
+	}
+
+	#content {
+		margin:auto;
+		float:none;
+		width:100%;
+	}
+
+	#side {
+		margin:auto;
+		float:none;
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width:684px) {			/*point at which title would break into two lines */
+	#headline {
+		padding:0.5em;
+	}
+
+	#headline img {
+		margin-top:-0.5em;
+	}
+}
+
+@media screen and (max-width:624px) {
+	#headline img{
+		margin:0;
+		max-width:50%;
+		max-height:6em;
+	}
+}
+
+@media screen and (max-width:550px) {
+	h1 {
+		font-size:2.5em;
+	}
+	#headline img{
+		display:none;
+	}
+}
