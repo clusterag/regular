@@ -82,11 +82,11 @@ h1 {
 }
 
 #content {
-	background:#00F;
+	background:#BBF9FF;
 	min-width:150px;
 	width:74.4047619%;
 	float:right;
-	color:#FFF;
+	color:#000;
 }
 
 .image {
@@ -103,7 +103,7 @@ h1 {
 }
 
 #side {
-	background:#72726A;
+	background:#868786;
 	min-width:90px;
 	width:25.5952381%;
 	float:left;
