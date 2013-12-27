@@ -63,6 +63,14 @@ h1 {
 	background:#57E542;
 }
 
+.currentmainnavitem {
+	
+}
+
+.activemainnavitem {
+	
+}
+
 .subnav {
 	display:none;
 	position:absolute;
