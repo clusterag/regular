@@ -63,12 +63,12 @@ h1 {
 	background:#57E542;
 }
 
-.currentmainnavitem {
-	
+#currentmainnavitem {
+	background:#F00;
 }
 
 .activemainnavitem {
-	
+	background:#FF0;
 }
 
 .subnav {
