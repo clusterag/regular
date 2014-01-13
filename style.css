@@ -6,177 +6,187 @@ You should have received a copy of the GNU General Public License along with reg
 */
 
 @font-face {
-	font-family:PosterBodoni BT;
-	src: url(posterbodonibt.ttf);
+  font-family:PosterBodoni BT;
+  src: url(posterbodonibt.ttf);
 }
 
 body {
-	background:#FFF;
-	margin:0;
+  background:#FFF;
+  margin:0;
 }
 
 #main {
-	margin:0 auto;
-	width:90%;
+  margin:0 auto;
+  width:90%;
 }
 
 #top {
-	overflow:hidden;
+  overflow:hidden;
+  background:#17c200;  /* is ne billiglösung */
 }
 
 #headline {
-	background:#193058;
-	padding:1.5em 2em 1em 10%;
-	max-height:77.7777778%;
+  background:#193058;
+  padding:1.5em 2em 1em 10%;
+  max-height:77.7777778%;
 }
 
 #headline img {
-	float:left;	
-	margin:auto;
-	margin-top:-1em;
-	max-width:10%;
-	max-height:4em;
+  float:left;  
+  margin:auto;
+  margin-top:-1em;
+  max-width:10%;
+  max-height:4em;
 }
 
 h1 {
-	font-family:PosterBodoni BT;
-	font-size:3em;
-	font-weight:normal;
-	line-height:1;
-	color:#FFF;
-	margin:0;
+  font-family:PosterBodoni BT;
+  font-size:3em;
+  font-weight:normal;
+  line-height:1;
+  color:#FFF;
+  margin:0;
 }
 
 #nav {
-	min-height:1em;
+  min-height:1em;
 }
 
 #mainnav {
-	padding:0 1em;
-	margin:0;
-	list-style:none;
+  padding:0 1em;
+  margin:0;
+  list-style:none;
 }
 
 .mainnavitem {
-	float:left;
-	padding-right:3em;
-	background:#57E542;
+  float:left;
+  padding-right:3em;
+  background:/*#57E542*/#17c200;
 }
 
 #currentmainnavitem {
-	background:#F00;
+  background:/*#FF0000*/#36ff1b;
 }
 
 #activemainnavitem {
-	background:#FFF;
+  background:/*#FFFFFF*/#9eff91;
 }
 
 .subnav {
-	display:none;
-	position:absolute;
+  display:none;
+  position:absolute;
+  background:#808080;
 }
 
 .mainnavitem:hover .subnav {
-	display:block;
+  display:block;
 }
 
 .subnavitem {
-	list-style:none;
+  list-style:none;
+}
+
+.subnavitem:hover{
+  background:#b2b2b2;
+}
+
+#currentsubnavitem{
+  background:#b2b2b2;
 }
 
 #bodycopy {
-	margin:0 auto;
-	width:100%;
+  margin:0 auto;
+  width:100%;
 }
 
 #content {
-	background:#BBF9FF;
-	min-width:150px;
-	width:74.4047619%;
-	float:right;
-	color:#000;
+  background:#BBF9FF;
+  min-width:150px;
+  width:74.4047619%;
+  float:right;
+  color:#000;
 }
 
 .image {
-	max-width:40%;
-	float:right;
-	margin:2em;
+  max-width:40%;
+  float:right;
+  margin:2em;
 }
 
 .image img {
-	max-width:100%;
+  max-width:100%;
 }
 
 .image figcaption {
 }
 
 #side {
-	background:#868786;
-	min-width:90px;
-	width:25.5952381%;
-	float:left;
-	color:#FFF;
+  background:#868786;
+  min-width:90px;
+  width:25.5952381%;
+  float:left;
+  color:#FFF;
 }
 
 #footer {
-	background:#AAA;
-	margin:0;
-	clear:both;
+  background:#AAA;
+  margin:0;
+  clear:both;
 }
 
 #footernav {
 }
 
 #footernavlist {
-	margin:0;
+  margin:0;
 }
 
 .footernavitem {
-	 }
+   }
 
-@media screen and (max-width:440px) {			/*point at which floats break*/
-	#main {
-		margin:0 auto;
-		width:90%;
-	}
+@media screen and (max-width:440px) {      /*point at which floats break*/
+  #main {
+    margin:0 auto;
+    width:90%;
+  }
 
-	#content {
-		margin:auto;
-		float:none;
-		width:100%;
-	}
+  #content {
+    margin:auto;
+    float:none;
+    width:100%;
+  }
 
-	#side {
-		margin:auto;
-		float:none;
-		width:100%;
-	}
+  #side {
+    margin:auto;
+    float:none;
+    width:100%;
+  }
 
 }
 
-@media screen and (max-width:684px) {			/*point at which title would break into two lines */
-	#headline {
-		padding:0.5em;
-	}
+@media screen and (max-width:684px) {      /*point at which title would break into two lines */
+  #headline {
+    padding:0.5em;
+  }
 
-	#headline img {
-		margin-top:-0.5em;
-	}
+  #headline img {
+    margin-top:-0.5em;
+  }
 }
 
 @media screen and (max-width:624px) {
-	#headline img{
-		margin:0;
-		max-width:50%;
-		max-height:6em;
-	}
+  #headline img{
+    margin:0;
+    max-width:50%;
+    max-height:6em;
+  }
 }
 
 @media screen and (max-width:550px) {
-	h1 {
-		font-size:2.5em;
-	}
-	#headline img{
-		display:none;
-	}
+  h1 {
+    font-size:2.5em;
+  }
+  #headline img{
+    display:none;
+  }
 }
