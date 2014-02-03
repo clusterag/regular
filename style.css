@@ -109,6 +109,10 @@ h1 {
 
 #vertretungsplan {
   width:100%;
+  background:#BBF9FF;
+  min-width:150px;
+  float:right;
+  color:#000;
 }
 
 .image {
