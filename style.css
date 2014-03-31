@@ -15,6 +15,24 @@ body {
   margin:0;
 }
 
+#vertretungsplan {
+  background:#d5d5d5;
+}
+
+#date {
+  text-align:center;
+  padding-top:1%;
+}
+
+table {
+  width:100%;
+  padding:1%;
+}
+
+td {
+  outline:1px solid;
+}
+
 #main {
   margin:0 auto;
   width:90%;
@@ -103,14 +121,6 @@ h1 {
   background:#BBF9FF;
   min-width:150px;
   width:74.4047619%;
-  float:right;
-  color:#000;
-}
-
-#vertretungsplan {
-  width:100%;
-  background:#BBF9FF;
-  min-width:150px;
   float:right;
   color:#000;
 }
