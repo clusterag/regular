@@ -203,6 +203,11 @@ h1 {
   #headline img {
     margin-top:-0.5em;
   }
+
+  #vertretungsplan {
+    font-size: 10%;
+  }
+  
 }
 
 @media screen and (max-width:624px) {
