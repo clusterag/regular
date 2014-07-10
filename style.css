@@ -204,9 +204,7 @@ h1 {
     margin-top:-0.5em;
   }
 
-  #vertretungsplan {
-    font-size: 10%;
-  }
+
   
 }
 
@@ -224,5 +222,13 @@ h1 {
   }
   #headline img{
     display:none;
+  }
+}
+
+/*This is supposed to apply to all mobile devices*/
+
+@media handheld {
+  #vertretungsplan {
+    font-size: 10%;
   }
 }
