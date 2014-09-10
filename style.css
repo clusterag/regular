@@ -20,6 +20,10 @@ body {
   padding:1%;
 }
 
+#change_user {
+  display:inline;
+}
+
 #hide {
   display:none;
 }
