@@ -29,6 +29,10 @@ body {
   padding-top:1%;
 }
 
+#stand {
+  text-align:center;
+}
+
 #dateofbirth input {
   width:40px;
 }
