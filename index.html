@@ -21,12 +21,10 @@
 
                 $(function() {
                     // apply your matchHeight on DOM ready (they will be automatically re-applied on load or resize)
-
-                    // get test settings
                     var byRow = $('body').hasClass('test-rows');
 
                     // apply matchHeight to each item container's items
-                    $('#bodycopy').each(function() {
+                    $('.matchheight').each(function() {
                         $(this).children('.item').matchHeight(byRow);
                     });
 
@@ -236,7 +234,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div id="bodycopy">
+		<div id="bodycopy" class="matchheight">
 			<div id="content">
 				<article>
 					<h2>&Uuml;berschrift des ersten Artikels</h2>
